@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacDonald's Farm</title>
+    <link rel="stylesheet" href="css/s1.css">
+</head>
+<nav>
+    <a href="home.html">Home</a>
+    <a href="cafe.html">cafe</a>
+    <a href="shop1.html">Shop</a>
+    <a href="zoo.html">Zoo</a>
+    <a href="park.html">Park</a>
+    <a href="contactus.html">Contact Us</a>
+    <div class="animation start-home"></div>
+</nav>
+<section id="contact">
+    <h2>Contact Us</h2>
+   <span>
+    <p>Location: Between Edinburgh and Carlisle</p></br>
+   </span>
+       <span>
+    <p>
+        Opening Time: 9 Am - 5 Pm
+    </P>
+   </span>
+    <div style="margin-top: 3em">
+
+        <div id="map">
+            <!-- Embed map -->
+            <iframe src="https://www.google.com/maps/embed" width="600" height="450" style="border:0;"
+                    allowfullscreen="" loading="lazy" class="cafe"></iframe>
+
+            <div class="contact-container">
+
+                <div class="right-col">
+                    <form id="contact-form" method="post">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                        <label for="message">Message</label>
+                        <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+                        <!--<a href="javascript:void(0)">-->
+                        <button type="submit" id="submit" name="submit">Send</button><!--</a>-->
+                    </form>
+                    <div id="error"></div>
+                    <div id="success-msg"></div>
+                    <div class="footer">
+                        @McDonal's Copyright Website.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</html>

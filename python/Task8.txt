@@ -1,0 +1,35 @@
+Task8:
+
+Write your description of the fetch execute cycle below: You may include a diagram as well.
+
+Answer:
+
+The fetch-execute cycle is the fundamental process through which a computer executes programs. It
+involves several components, including the processor (CPU), memory and buses.
+
+Software Design and Development J27C 76
+• Processor (CPU): It is the brain of the computer and executes instructions. It consists of Arithmetic
+Logic Unit (ALU), Control Unit ( CU) and registers.
+• Memory: it stores both data and instructions that the CPU needs to execute. Memory is divided into
+RAM (Random Access Memory) and ROM (Read Only Memory)
+• Buses: are pathways that allow data and instructions to travel between the CPU, memory and other
+components of the computer. The primary buses involved in the fetch execute cycle are the address
+bus, data bus and control bus.
+The fetch-execute cycle process:
+• Fetch:
+The CPU fetches the next instruction from memory. It sends the memory address of the next
+instruction over the address bus.
+• Decode:
+The Control Unit decodes the fetched instruction, determining what operation needs to be
+performed and what data, if any, is required.
+• Execute:
+The decoded instruction is executed by the ALU or other relevant components of the CPU. This
+could involve performing arithmetic or logical operations, accessing data from memory, or
+transferring data between registers.
+• Write back:
+If the executed instruction produces a result that needs to be stored back in memory or a register,
+the CPU writes this result back to the appropriate location.
+
+This cycle continues repeatedly, with the CPU fetching, decoding, and executing instructions until the program
+terminates or encounters an error. The coordination of these activities is facilitated by the control signals sent
+over the control bus, ensuring that the instructions are executed in the correct sequence and at the correct time.
